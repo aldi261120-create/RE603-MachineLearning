@@ -1,0 +1,64 @@
+Assignment Week 3 – Feature Engineering
+📌 Deskripsi
+Repository ini berisi notebook Feature Engineering yang mencakup proses preprocessing data sebelum digunakan dalam model machine learning. Fokus utama pada assignment ini adalah:
+- Outlier Handling
+- Missing Value Handling
+- Encoding Data
+
+Dataset yang digunakan:
+- california_dataset.csv
+- company.csv
+
+📂 Struktur File
+Assignment_Week 3.ipynb
+california_dataset.csv
+company.csv
+README.md
+
+🔧 Library yang Digunakan
+Notebook ini menggunakan beberapa library Python berikut:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+
+📖 Isi Notebook
+1. Feature Engineering
+Bagian awal berisi pengantar dan instruksi pengerjaan terkait preprocessing data.
+
+2. 📉 Outlier Handling (IQR Method)
+Pada bagian ini dilakukan:
+- Visualisasi distribusi data menggunakan histogram dan boxplot
+- Identifikasi outlier pada kolom:
+- MedInc
+- HouseAge
+- AveRooms
+- AveBedrms
+- AveOccup
+Penanganan outlier menggunakan metode Interquartile Range (IQR)
+
+3. ⚠️ Missing Value Handling
+Dataset: company.csv
+Langkah yang dilakukan:
+- Mengecek jumlah dan persentase missing value
+- Identifikasi tipe data kolom
+- Penanganan missing value berdasarkan tipe data:
+-Numerik → menggunakan median
+-Kategorikal → menggunakan modus
+
+4. 🔤 Encoding
+Mengubah data kategorikal menjadi numerik agar dapat digunakan dalam model machine learning.
+Metode yang digunakan:
+-Label Encoding / One-Hot Encoding (tergantung kasus)
+
+🎯 Tujuan Pembelajaran
+Melalui assignment ini, diharapkan dapat:
+- Memahami konsep preprocessing data
+- Mengidentifikasi dan menangani outlier
+- Menangani missing values dengan metode yang tepat
+- Mengubah data kategorikal menjadi numerik
+
+📝 Catatan
+- Pastikan file dataset (california_dataset.csv dan company.csv) berada di direktori yang sama dengan notebook.
+- Periksa path file jika terjadi error saat membaca dataset.
